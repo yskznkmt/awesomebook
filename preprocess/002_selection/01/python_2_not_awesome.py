@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/Users/yoshikazunakamoto/Google ドライブ/yskznkmt/awesomebook')
+
 from preprocess.load_data.data_loader import load_hotel_reserve
 customer_tb, hotel_tb, reserve_tb = load_hotel_reserve()
 
